@@ -2,25 +2,25 @@ macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
 #binding-cells = <0>;
-bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+bindings = <&kp LALT>, <&kp LCTRL>, <&kp TAB>;
 };
 macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
 label = "macro_dquotes";
 #binding-cells = <0>;
-bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+bindings = <&kp LGUI>, <&kp LSHFT>, <&kp LEFT>;
 };
 macro_braces: macro_braces{
 compatible = "zmk,behavior-macro";
 label = "macro_braces";
 #binding-cells = <0>;
-bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+bindings = <&kp LALT>, <&kp TAB>;
 };
 macro_parens: macro_parens{
 compatible = "zmk,behavior-macro";
 label = "macro_parens";
 #binding-cells = <0>;
-bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
+bindings = <&kp LCTRL>, <&kp LSHFT>, <&kp R>;
 };
 macro_brackets: macro_brackets{
 compatible = "zmk,behavior-macro";
